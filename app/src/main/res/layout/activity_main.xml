@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/player_turn"
+            android:text="@string/turn"
+            android:textSize="@dimen/large_size"
+            android:textColor="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="25dp"
+            android:paddingTop="25dp"/>
+
+
+        <TextView
+            android:text="@string/cpu_2_name"
+            android:textSize="@dimen/normal_large_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/cpu_2_partial_score"
+            android:text="@string/partial_score"
+            android:textSize="@dimen/normal_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/cpu_2_last_card"
+            android:text="@string/cpu_last_card"
+            android:textSize="@dimen/small_size"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="130dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="90dp">
+
+                <TextView
+                    android:text="@string/cpu_3_name"
+                    android:textSize="@dimen/normal_large_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/cpu_3_partial_score"
+                    android:text="@string/partial_score"
+                    android:textSize="@dimen/normal_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/cpu_3_last_card"
+                    android:text="@string/cpu_last_card"
+                    android:textSize="@dimen/small_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="22dp">
+
+                <TextView
+                    android:text="@string/cpu_1_name"
+                    android:textSize="@dimen/normal_large_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:id="@+id/cpu_1_partial_score"
+                    android:text="@string/partial_score"
+                    android:textSize="@dimen/normal_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/cpu_1_last_card"
+                    android:text="@string/cpu_last_card"
+                    android:textSize="@dimen/small_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/player_last_card"
+            android:layout_width="@dimen/card_width"
+            android:layout_height="@dimen/card_height"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/player_partial"
+                android:text="@string/partial_score"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="16dp"/>
+
+            <TextView
+                android:id="@+id/player_total"
+                android:text="@string/total_score"
+                android:textSize="@dimen/normal_size"
+                android:textColor="@color/red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="16dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/bt_continue"
+                android:layout_width="@dimen/bt_normal_size"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_continue"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                android:layout_marginRight="16dp"/>
+
+            <Button
+                android:id="@+id/bt_stop"
+                android:layout_width="@dimen/bt_normal_size"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_stop"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/blue"
+                />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

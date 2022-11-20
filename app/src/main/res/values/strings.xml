@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Blackjack</string>
+    <string name="cpu_2_name">CPU-2</string>
+    <string name="cpu_1_name">CPU-1</string>
+    <string name="cpu_3_name">CPU-3</string>
+
+    <string name="turn">Vez:</string>
+
+    <string name="partial_score">Pontos parciais: </string>
+    <string name="total_score">Pontos totais: </string>
+
+    <string name="cpu_last_card">Carta: </string>
+
+    <string name="bt_continue">Continuar</string>
+    <string name="bt_stop">Parar</string>
+    <string name="bt_play_again">jogar novamente</string>
+    <string name="bt_finish">fechar</string>
+
+</resources>
