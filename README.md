@@ -5,6 +5,8 @@
 
 A instalação é bem simples, basta fazer o download do apk disponível em -> app/release/app-release.apk.
 
+É recomendado utilizar o night mode, se o seu celular tiver esta opção, pois o layout deste projeto não foi feito para a utlização do modo claro, logo a experiência vai ser melhor utilizando o modo escuro.
+
 Neste projeto, a target api esta definida como 31, porém não foram utilizados recursos que comprometam a utilização em apis mais antigas.
 ## Sobre o app:
 
@@ -21,27 +23,27 @@ Neste projeto, a target api esta definida como 31, porém não foram utilizados 
 Abaixo o botão de parar esta preto, isto significa que ele esta desativado, isso aconteceu porque o jogador tem menos de 16 pontos totais, ou seja, ele é obrigado a continuar. 
 
 <p align="center">
-<img  height="400" src="/home/igor/Desktop/Workspace/android-projects/Blackjack/imgs_readme/menor_16.jpeg" width="200"/>
+<img  height="400" src="imgs_readme/menor_16.jpeg" width="200"/>
 </p>
 
 
 A seguir a cpu-3 estourou, portanto uma mensagem de aviso foi disparada.
 
 <p align="center">
-<img  height="400" src="/home/igor/Desktop/Workspace/android-projects/Blackjack/imgs_readme/info.jpeg" width="200"/>
+<img  height="400" src="imgs_readme/info.jpeg" width="200"/>
 </p>
 
 Contudo, após o jogo terminar, somos direcionados para a tela de vencedores, nela poderemos ver quem ganhou ou se foi empate,
 além disso poderemos ver a pontuação total de todos os jogadores e também as cartas que eles compraram.
 
 <p align="center">
-<img  height="400" src="/home/igor/Desktop/Workspace/android-projects/Blackjack/imgs_readme/tela_vencedores.jpeg" width="200"/>
+<img  height="400" src="imgs_readme/tela_vencedores.jpeg" width="200"/>
 </p>
 
 Ao clicar em um jogador, as cartas recebidas pelo mesmo são mostradas.
 
 <p align="center">
-<img  height="400" src="/home/igor/Desktop/Workspace/android-projects/Blackjack/imgs_readme/todas_as_cartas.jpeg" width="200"/>
+<img  height="400" src="imgs_readme/todas_as_cartas.jpeg" width="200"/>
 </p>
 
 Porfim o botão finalizar fecha o app e o botão jogar novamente inicia outra partida.
