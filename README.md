@@ -1,60 +1,47 @@
 # BlackJack
- Este projeto tem como objetivo simular o jogo blackjack, mais conhcecido como 21. Neste jogo temos 4 jogadores, 1 jogador humano e 3 cpus. Quem conseguir a pontuação mais próxima de 21 vence a partida, se dois ou mais tiverem a melhor pontuação é declarado empate, se todos ultrapassarem 21, também é considerado empate.
 
-## Instalação
+This project simulates the Blackjack game, also known as 21. There are 4 players: 1 human player and 3 CPUs. Whoever gets the score closest to 21 wins. If two or more players tie for the best score, it is a draw. If all players exceed 21, it is also considered a draw.
 
-A instalação é bem simples, basta fazer o download do apk disponível em -> app/release/app-release.apk.
+## Installation
 
-É recomendado utilizar o night mode, se o seu celular tiver esta opção, pois o layout deste projeto não foi feito para a utlização do modo claro, logo a experiência vai ser melhor utilizando o modo escuro.
+Installation is straightforward — just download the APK available at `app/release/app-release.apk`.
 
-Neste projeto, a target api esta definida como 31, porém não foram utilizados recursos que comprometam a utilização em apis mais antigas.
-## Sobre o app:
+Night mode is recommended if your device supports it, as the layout was not designed for light mode. The experience will be better in dark mode.
 
-<ul>
-    <li>Cartas iniciais -> Inicialmente são distribuidas duas cartas para cada jogador;</li>
-    <li>Ordem dos jogadores -> A ordem é aleatória, ou seja, as vezes você começa, e as vezes qualquer uma das três cpus podem começar jogando;</li>
-    <li>Pontos -> Cada participante, player ou cpu, possue seus pontos parciais, que dizem respeito a soma do valor de suas cartas excluindo as iniciais, e seus pontos totais que são a soma de todas as cartas;</li>
-    <li>Compra -> Todo jogador é obrigado a comprar mais uma carta, caso seus pontos totais sejam menores que 16;</li>
-    <li>Estouro ou 21 -> Um mensagem é disparada quando algum dos jogadores estora ou atinge 21.</li>
-</ul>
+The target API is set to 31, but no resources were used that would compromise compatibility with older APIs.
 
-## Exemplos
+## About the App
 
-Abaixo o botão de parar esta preto, isto significa que ele esta desativado, isso aconteceu porque o jogador tem menos de 16 pontos totais, ou seja, ele é obrigado a continuar. 
+- **Initial cards** — Two cards are dealt to each player at the start;
+- **Player order** — The order is random, so sometimes you go first, and sometimes one of the three CPUs starts;
+- **Points** — Each participant has partial points (sum of cards drawn after the initial deal) and total points (sum of all cards);
+- **Mandatory draw** — Every player must draw another card if their total points are below 16;
+- **Bust or 21** — A message is shown when any player busts or reaches 21.
 
-<p align="center">
-<img  height="400" src="imgs_readme/menor_16.jpeg" width="200"/>
-</p>
+## Examples
 
-
-A seguir a cpu-3 estourou, portanto uma mensagem de aviso foi disparada.
+Below, the stop button is black, meaning it is disabled. This happens because the player has fewer than 16 total points and must keep drawing.
 
 <p align="center">
-<img  height="400" src="imgs_readme/info.jpeg" width="200"/>
+<img height="400" src="imgs_readme/menor_16.jpeg" width="200"/>
 </p>
 
-Contudo, após o jogo terminar, somos direcionados para a tela de vencedores, nela poderemos ver quem ganhou ou se foi empate,
-além disso poderemos ver a pontuação total de todos os jogadores e também as cartas que eles compraram.
+Next, CPU-3 busted, so a warning message was shown.
 
 <p align="center">
-<img  height="400" src="imgs_readme/tela_vencedores.jpeg" width="200"/>
+<img height="400" src="imgs_readme/info.jpeg" width="200"/>
 </p>
 
-Ao clicar em um jogador, as cartas recebidas pelo mesmo são mostradas.
+After the game ends, you are taken to the winners screen, where you can see who won or if it was a draw, along with each player's total score and the cards they drew.
 
 <p align="center">
-<img  height="400" src="imgs_readme/todas_as_cartas.jpeg" width="200"/>
+<img height="400" src="imgs_readme/tela_vencedores.jpeg" width="200"/>
 </p>
 
-Porfim o botão finalizar fecha o app e o botão jogar novamente inicia outra partida.
+Clicking on a player reveals all the cards they received.
 
+<p align="center">
+<img height="400" src="imgs_readme/todas_as_cartas.jpeg" width="200"/>
+</p>
 
-
-
-
-
-
-
-
-
-
+Finally, the **Finish** button closes the app and the **Play Again** button starts a new match.
