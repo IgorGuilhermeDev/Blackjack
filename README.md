@@ -1,5 +1,7 @@
 # BlackJack
 
+[🇧🇷 Versão em Português](README-pt-BR.md)
+
 This project simulates the Blackjack game, also known as 21. There are 4 players: 1 human player and 3 CPUs. Whoever gets the score closest to 21 wins. If two or more players tie for the best score, it is a draw. If all players exceed 21, it is also considered a draw.
 
 ## Installation
